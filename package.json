@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "ENV=production webpack -p --config ./webpack/webpack.prod.js",
     "dev": "ENV=development webpack-dev-server --config ./webpack/webpack.dev.js",
     "lint": "eslint . --ext .tsx"
   },
