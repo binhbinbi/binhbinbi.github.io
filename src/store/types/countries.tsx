@@ -1,0 +1,1 @@
+export const POST_LIST_REQUEST = 'POST_LIST_REQUEST'
