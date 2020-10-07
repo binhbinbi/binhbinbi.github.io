@@ -1,0 +1,22 @@
+div,
+input,
+textarea {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; }
+
+body {
+  margin: 0px; }
+
+.products {
+  display: flex;
+  height: 300px;
+  justify-content: space-between; }
+  .products .product-item {
+    background-color: yellowgreen;
+    width: 30%; }
+    .products .product-item .image {
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center; }
+
